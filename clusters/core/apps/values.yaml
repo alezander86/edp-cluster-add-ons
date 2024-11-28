@@ -20,7 +20,7 @@ targetRevision: "main"
 # keep sorted order
 # -- ArgoCD Deployment
 argo-cd:
-  # -- whether to create the namespace or not
+  # -- whether to create the namespace or not1
   createNamespace: false
   enable: false
 
