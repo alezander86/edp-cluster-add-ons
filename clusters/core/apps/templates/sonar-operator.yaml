@@ -16,7 +16,7 @@ spec:
       releaseName: sonar-operator
   destination:
     name: {{ .Values.destinationServer | default "in-cluster" }}
-    namespace: sonar
+    namespace: sonar-ot
   syncPolicy:
     syncOptions:
       - CreateNamespace={{ (index .Values "sonar-operator" "createNamespace") }}
